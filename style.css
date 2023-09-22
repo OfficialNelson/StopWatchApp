@@ -2,42 +2,39 @@
 
 body{
   font-family: 'Noto Sans Mono', monospace;
-  background-color: #292642;
-  color: #ddd9fc;
+  background-color: #1f325f; /* Blue background color */
+  color: #ffaa4d; /* Orange text color */
 }
 
 button{
-  background-color:#bcb5ff;
-  border:none;
-  border-radius:8px;
+  background-color: #ffaa4d; /* Orange button background color */
+  border: none;
+  border-radius: 8px;
   text-decoration: none;
   padding: 10px 30px;
-  margin:15px;
+  margin: 15px;
   font-family: 'Noto Sans Mono', monospace;
+  color: #1f325f; /* Blue button text color */
 }
 
 button:hover{
-  background-color:#8f86eb;
-  color:#b3adee;
+  background-color: #ff7e00; /* Darker orange on hover */
+  color: #1f325f; /* Blue text color on hover */
   box-shadow: 2px 4px;
 }
 
 .wrapper{ 
- position: fixed;
- top: 25%; 
- left: 35%; 
+  position: fixed;
+  top: 25%; 
+  left: 35%; 
   margin: auto; 
   display: flex; 
-  flex-direction:column;
-
-  justify-content:space-between;
-  align-items:center;
-  
-  border: 3px ridge #bcb5ff; 
-  border-radius:1rem; 
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border: 3px ridge #ffaa4d; /* Orange border color */
+  border-radius: 1rem; 
   width: 30%;
-
-  
 }
 
 .displayTime{
